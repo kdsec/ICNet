@@ -4,11 +4,14 @@ Code for "ICNet: Incorporating Indicator Words and Contexts to Identify Function
 
 ### Dependency
 
+While this implement might work for many cases, it is only tested for environment below:
+
 ```
 numpy
 sklearn
-jieba
-pytorch
+jieba == 0.39
+pytorch == 1.0.1
+tqdm
 ```
 
 ### Preprocess
