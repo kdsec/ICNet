@@ -2,4 +2,6 @@ classify.txt
 classify_data.txt
 classify_label.txt
 classify_data.seg
+classify.tag.json
 classify.tag
+dict.bin

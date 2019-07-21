@@ -29,8 +29,25 @@ python3 indicator_tagging.py
 <img src="./images/ICNet-multi-task.png" width="500px" />
 </div>
 
-```bash
+> After pre-process dataset:
 
+Training multi-task model:
+
+```bash
+python3 main.py
+```
+
+Generating classification dataset:
+
+```bash
+cd preprocess
+python3 build_classify_data.py
+```
+
+Training and evaluating classifier:
+
+```bash
+python3 classifier_quick.py
 ```
 
 #### ICNet ensemble model
